@@ -99,13 +99,11 @@
 		995085131EB9CEE200024BDB /* TDD GD Test */ = {
 			isa = PBXGroup;
 			children = (
-				995085141EB9CEE200024BDB /* AppDelegate.swift */,
-				995085161EB9CEE200024BDB /* ViewController.swift */,
-				995085181EB9CEE200024BDB /* Main.storyboard */,
-				9950851E1EB9CEE200024BDB /* Assets.xcassets */,
-				995085201EB9CEE200024BDB /* LaunchScreen.storyboard */,
-				995085231EB9CEE200024BDB /* Info.plist */,
-				9950851B1EB9CEE200024BDB /* TDD_GD_Test.xcdatamodeld */,
+				9950854B1EB9CF5800024BDB /* Resource */,
+				9950854A1EB9CF4A00024BDB /* Data */,
+				995085471EB9CF1E00024BDB /* UI */,
+				995085461EB9CF0E00024BDB /* Networking */,
+				995085451EB9CF0200024BDB /* Core */,
 			);
 			path = "TDD GD Test";
 			sourceTree = "<group>";
@@ -113,6 +111,7 @@
 		9950852B1EB9CEE200024BDB /* TDD GD TestTests */ = {
 			isa = PBXGroup;
 			children = (
+				9950854F1EB9D00900024BDB /* Data */,
 				9950852C1EB9CEE200024BDB /* TDD_GD_TestTests.swift */,
 				9950852E1EB9CEE200024BDB /* Info.plist */,
 			);
@@ -126,6 +125,79 @@
 				995085391EB9CEE200024BDB /* Info.plist */,
 			);
 			path = "TDD GD TestUITests";
+			sourceTree = "<group>";
+		};
+		995085451EB9CF0200024BDB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				995085141EB9CEE200024BDB /* AppDelegate.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		995085461EB9CF0E00024BDB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		995085471EB9CF1E00024BDB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9950854C1EB9CF6C00024BDB /* View Controllers */,
+				995085491EB9CF3600024BDB /* Assets */,
+				995085481EB9CF2500024BDB /* Storyboards */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		995085481EB9CF2500024BDB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				995085201EB9CEE200024BDB /* LaunchScreen.storyboard */,
+				995085181EB9CEE200024BDB /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		995085491EB9CF3600024BDB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9950851E1EB9CEE200024BDB /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		9950854A1EB9CF4A00024BDB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9950851B1EB9CEE200024BDB /* TDD_GD_Test.xcdatamodeld */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		9950854B1EB9CF5800024BDB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				995085231EB9CEE200024BDB /* Info.plist */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		9950854C1EB9CF6C00024BDB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				995085161EB9CEE200024BDB /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9950854F1EB9D00900024BDB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
