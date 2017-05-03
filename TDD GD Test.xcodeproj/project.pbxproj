@@ -17,6 +17,8 @@
 		995085381EB9CEE200024BDB /* TDD_GD_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995085371EB9CEE200024BDB /* TDD_GD_TestUITests.swift */; };
 		995085511EB9D05300024BDB /* AuthBundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995085501EB9D05300024BDB /* AuthBundleTests.swift */; };
 		995085531EB9D0DE00024BDB /* AuthBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995085521EB9D0DE00024BDB /* AuthBundle.swift */; };
+		995085551EB9DAB000024BDB /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995085541EB9DAB000024BDB /* ProfileTests.swift */; };
+		995085571EB9DACA00024BDB /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995085561EB9DACA00024BDB /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		995085391EB9CEE200024BDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		995085501EB9D05300024BDB /* AuthBundleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthBundleTests.swift; path = Data/AuthBundleTests.swift; sourceTree = "<group>"; };
 		995085521EB9D0DE00024BDB /* AuthBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthBundle.swift; path = Data/AuthBundle.swift; sourceTree = "<group>"; };
+		995085541EB9DAB000024BDB /* ProfileTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileTests.swift; path = Data/ProfileTests.swift; sourceTree = "<group>"; };
+		995085561EB9DACA00024BDB /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = Data/Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +182,7 @@
 			children = (
 				9950851B1EB9CEE200024BDB /* TDD_GD_Test.xcdatamodeld */,
 				995085521EB9D0DE00024BDB /* AuthBundle.swift */,
+				995085561EB9DACA00024BDB /* Profile.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				995085501EB9D05300024BDB /* AuthBundleTests.swift */,
+				995085541EB9DAB000024BDB /* ProfileTests.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -344,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				995085171EB9CEE200024BDB /* ViewController.swift in Sources */,
+				995085571EB9DACA00024BDB /* Profile.swift in Sources */,
 				995085151EB9CEE200024BDB /* AppDelegate.swift in Sources */,
 				9950851D1EB9CEE200024BDB /* TDD_GD_Test.xcdatamodeld in Sources */,
 				995085531EB9D0DE00024BDB /* AuthBundle.swift in Sources */,
@@ -354,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				995085551EB9DAB000024BDB /* ProfileTests.swift in Sources */,
 				9950852D1EB9CEE200024BDB /* TDD_GD_TestTests.swift in Sources */,
 				995085511EB9D05300024BDB /* AuthBundleTests.swift in Sources */,
 			);
